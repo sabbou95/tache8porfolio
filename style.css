@@ -1,0 +1,724 @@
+ 
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: verdana;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.933);
+    display: flex;
+    justify-content: space-between;
+}
+.pari{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: rgba(255, 255, 255, 0.785);
+    margin-left: 80px;
+}
+.peri{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peri li a > p{
+    color: #fff;
+    margin-top: 5px;
+}
+.pari p{
+    font-size: 12px;
+}
+.peri ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.peri ul li{
+    list-style: none;
+}
+.peri li a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.peri li a:link{
+    color: rgba(255, 255, 255, 0.833);
+}
+.peri li a:visited{
+    color: rgba(255, 255, 255, 0.82);
+}
+.peri li i{
+    color: rgb(237, 70, 9);
+}
+
+.nav2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #fff;
+}
+.vir{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viry{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.div1 img {
+    width: 20px;
+  }
+  .pol img{
+    width: 20px;
+  }
+.logos{
+    width: 130px;
+    height: 90px;
+    margin-bottom: 30px;
+    background-color: aqua;
+}
+.logos img{
+    width: 100%;
+    height: 100%;
+}
+.rech{
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.35) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.35) ;
+}
+.pani{
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.35) ;
+}
+.jap{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.ros{
+    border-right: 1px solid rgba(0, 0, 0, 0.35);
+}
+.ros p{
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+}
+.ros a{
+    text-decoration: none;
+}
+.ros a:link{
+    color: rgba(0, 0, 0, 0.844);
+}
+.ros a:visited{
+    color: rgba(0, 0, 0, 0.844);
+}
+
+.roby{
+    width: 100%;
+    height: 540px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(image5.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: flex;
+    justify-content: center;
+}
+.remon{
+    width: 60%;
+    height: 540px;
+}
+.puma{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+.puma img{
+    width: 100%;
+    height: 100%;
+}
+.trait{
+    width: 200px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.trait1{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(255, 111, 0);
+}
+.tex{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 55px;
+    color: rgba(255, 255, 255, 0.953);
+}
+.tex h1{
+    font-size: 55px;
+}
+
+.tou{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.contour{
+    width: 190px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border:2px solid rgb(255, 255, 255);
+}
+
+.contour p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tir i{
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.point{
+    width: 40%;
+    height: 80px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.conta{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.poi{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.608);
+    border-radius: 50%;
+}
+.poi2{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.best{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.poty{
+    width: 70%;
+    height: 320px;
+    display: flex;
+    margin-top:-30px ;
+}
+.nano{
+    width: 50%;
+    height: 100%;
+    background-image: url(image6.jpg);
+    background-size: 100%;
+}
+.nani{
+    width: 50%;
+    height: 100%;
+    background-image: url(image7.jpg);
+    background-size: 100%;
+}
+
+.couly{
+    width: 80%;
+    height: 210px;
+    border: 47px solid rgba(253, 120, 3, 0.641);
+    border-bottom: 63px solid rgba(253, 120, 3, 0.641);
+}
+.coulys{
+    width: 80%;
+    height: 210px;
+    border: 48px solid rgba(56, 56, 228, 0.611);
+    border-bottom: 63px solid rgba(56, 56, 228, 0.611);
+}
+.box{
+    width: 98%;
+    height: 200px;
+    border: 5px solid #ffffff;
+}
+
+.text1{
+    width: 100px;
+    background-image: url(./image6.jpg);
+    margin-top: -7px;
+    margin-left: -7px;
+}
+.text1 p, .text2 p, .text3 p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+.text2{
+    width: 150px;
+    background-image: url(./image6.jpg);
+    margin-left: -7px;
+}
+.text3{
+    width: 150px;
+    height: 40px;
+    background-image: url(./image6.jpg);
+    margin-left: -7px;
+}
+
+.text11{
+    width: 160px;
+    height: 110px;
+    background-image: url(./image9.jpg);
+    margin-top: -10px;
+    margin-left: -10px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text11 p, .text22 p, .text33 p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+.tord{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.jup{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verti{
+    display: flex;
+    gap: 20px;
+}
+.conty{
+    width: 170px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.conty p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+fieldset {
+    width: 15%;
+    height: 90px;
+    margin-top: -20%;
+    margin-left: 440px;
+    padding-top: 80px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .papa {
+    margin-left: 730px;
+    padding-left: 40px;
+    color: aliceblue;
+  }
+
+
+/*==============merdia queries=========début=========*/
+
+
+@media screen and (max-width: 1220px) {
+    .logos{
+        width: 130px;
+        height: 60px;
+        margin-bottom: 0px;
+    }
+    .tex h1{
+        font-size: 45px;
+    }
+    .poty{
+        width: 80%;
+        height: auto;
+        display: flex;
+        margin-top:-30px ;
+        margin-bottom: 80px;
+    }
+    .couly{
+        width: 80%;
+        height: 210px;
+        border:none;
+        border-bottom:none;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .coulys{
+        width: 80%;
+        height: 210px;
+        border:none;
+        border-bottom:none;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .tex h1{
+        font-size: 38px;
+    }
+    .nav1{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pari{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: rgba(255, 255, 255, 0.785);
+        margin:  auto;
+    }
+    .pari p{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .peri{
+        width: 60%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 35%;
+        margin-right: 5%;
+        border-bottom: 5px solid orange;
+    }
+    .viry{
+        width: 40%;
+        height: 60px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .remon{
+        width: 100%;
+        height: 540px;
+    }
+    .tou{
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .best{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .poty{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top:-30px ;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .nano{
+        width: 60%;
+        height: 320px;
+        background-size: 100%;
+        margin: auto;
+    }
+    .nani{
+        width: 60%;
+        height: 320px;
+        background-size: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .couly{
+        width: 80%;
+        height: 210px;
+        border:none;
+        border-bottom:none;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .coulys{
+        width: 80%;
+        height: 210px;
+        border:none;
+        border-bottom:none;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .pari{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: rgba(255, 255, 255, 0.785);
+        margin:  auto;
+    }
+    .pari p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .peri{
+        width: 70%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 5%;
+    }
+    .nav2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: #fff;
+    }
+    .vir{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+    }
+    .viry{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .logos{
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 692px){
+    .nano{
+        width: 75%;
+    }
+    .nani{
+        width: 75%;
+    }
+    .jup{
+        width: 100%;
+        height: 50px;
+    }
+    .pari p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .peri{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -1%;
+        margin-right: 5%;
+        border-bottom:none;
+    }
+    .nav2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .vir{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .jap{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .ros{
+        border-right:none;
+        border-bottom: none;
+    }
+    .ros p{
+        width: 55px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .ros a{
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 560px){
+    .nano{
+        width: 85%;
+    }
+    .nani{
+        width: 85%;
+    }
+    .tex{
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: rgba(255, 255, 255, 0.953);
+    }
+    .tex h1{
+        font-size: 33px;
+    }
+    .tex p{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .pari p{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .peri{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+        margin-right: 0%;
+        border-bottom:none;
+    }
+    .peri ul p{
+        font-size: 12px;
+    }
+    .nav2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .vir{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .jap{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .ros{
+        border-right: 1px solid rgba(0, 0, 0, 0.35);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    }
+    .ros p{
+        width: 55px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    
+    .tex h1{
+        font-size: 25px;
+    }
+    .tex p{
+        font-size: 12px;
+    }
+    .nano{
+        width: 90%;
+        margin-left: 27px;
+    }
+    .nani{
+        width: 90%;
+        margin-left: 27px;
+    }
+    .poty{
+        width: 95%;
+        height: auto;
+        display: flex;
+        margin-top:-30px ;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin: auto;
+    }
+}
+/*------fin des medias queries----*/
